@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
+const lesson1Controller = require('./controllers/lesson1');
 
-app.get('/', (req, res) => {
-    res.send('Hello!');
-});
+app.get('/', lesson1Controller.mckadeRoute);
+app.get('/kenna', lesson1Controller.kennaRoute);
 
 const port = 3000;
 
