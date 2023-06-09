@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const lesson2Controller = require('./Lesson2/Backend/controllers/');
+const lesson2Controller = require('./Lesson2/Backend/controllers');
 
 const port = 8080;
 
