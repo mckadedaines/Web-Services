@@ -1,2 +1,3 @@
+MONGODB_URI = mongodb+srv://mckadedaines1:DDeell11223344!@cluster0.gvczhjl.mongodb.net/Database
 node_modules
 .env
