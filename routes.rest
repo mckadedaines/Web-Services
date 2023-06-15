@@ -16,7 +16,7 @@ PUT http://localhost:8080/contacts/6483a9ee0246aff2ba0bc8f6 HTTP/1.1
 content-type: application/json
 
 {
-"firstName":"Kenna", "lastName":"Monty", "email":"monty@gmail.com", "favColor":"Blue", "birthday":"April 3, 2001"
+"firstName":"Kenna", "lastName":"Monty", "email":"monty@gmail.com", "favColor":"Black", "birthday":"April 3, 2001"
 } 
 
-DELETE http://localhost:8080/contacts/6483a9ee0246aff2ba0bc8f6 HTTP/1.1
+DELETE http://localhost:8080/contacts/648adf1c364b132c8afc5c1b HTTP/1.1
