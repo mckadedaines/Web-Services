@@ -3,7 +3,7 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
   info: {
     title: 'My API',
-    description: 'Temple API'
+    description: 'API'
   },
   host: 'cse341-spring23-s6kv.onrender.com',
   schemes: ['https']
@@ -12,10 +12,4 @@ const doc = {
 const outputFile = './Lesson2/Backend/swagger.json';
 const endpointsFiles = ['./Lesson2/Backend/routes/index.js'];
 
-// generate swagger.json
 swaggerAutogen(outputFile, endpointsFiles, doc);
-
-// Run server after it gets generated
-// swaggerAutogen(outputFile, endpointsFiles, doc).then(async () => {
-//   await import('./index.js');
-// });
